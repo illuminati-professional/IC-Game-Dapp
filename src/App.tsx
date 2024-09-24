@@ -60,9 +60,7 @@ function App() {
           }}
       >
         <div className="app">
-            <Header />
-            <TxForm />
-            <TonProofDemo />
+          dAPP
         </div>
       </TonConnectUIProvider>
   )
