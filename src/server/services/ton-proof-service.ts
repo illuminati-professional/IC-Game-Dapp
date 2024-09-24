@@ -8,7 +8,10 @@ import {tryParsePublicKey} from "../wrappers/wallets-data";
 const tonProofPrefix = 'ton-proof-item-v2/';
 const tonConnectPrefix = 'ton-connect';
 const allowedDomains = [
-  'localhost:5173'
+  'localhost:5173',
+  'http://localhost:5173/',
+  't.me',
+  'https://illuminati-professional.github.io/IC-Game-Dapp/'
 ];
 const validAuthTime = 15 * 60; // 15 minute
 
