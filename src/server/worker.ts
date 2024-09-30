@@ -5,6 +5,7 @@ import {createJetton} from "./api/create-jetton";
 import {generatePayload} from "./api/generate-payload";
 import {getAccountInfo} from "./api/get-account-info";
 import {healthz} from './api/healthz';
+import { dcryptDataHttp } from './api/cipher';
 
 const baseUrl = document.baseURI.replace(/\/$/, '');
 
@@ -14,4 +15,5 @@ export const worker = setupWorker(
   http.post(`${baseUrl}/api/check_proof`, checkProof),
   http.get(`${baseUrl}/api/get_account_info`, getAccountInfo),
   http.post(`${baseUrl}/api/create_jetton`, createJetton),
+  http.post(`${baseUrl}/api/dcrypt`, dcryptDataHttp),
 )

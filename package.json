@@ -17,6 +17,7 @@
     "@tonconnect/ui-react": "2.0.9-beta.0",
     "boxen": "^5.1.2",
     "buffer": "^6.0.3",
+    "crypto-ts": "^1.0.2",
     "eruda": "^2.11.2",
     "jose": "^5.2.4",
     "msw": "^2.3.0",
